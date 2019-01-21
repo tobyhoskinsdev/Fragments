@@ -35,6 +35,7 @@ public class UserInputFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         etMessageToSend = view.findViewById(R.id.etUserInput);
         btnSendToMain = view.findViewById(R.id.btnSendToOtherFrag);
+        setRetainInstance(true);
         btnSendToMain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

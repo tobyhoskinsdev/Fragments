@@ -23,4 +23,18 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"/>
 
+    <Button
+        android:id="@+id/btnOneRemove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REMOVE DISPLAY FRAGMENT"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnRemoveAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REMOVE ALL FRAGMENTS"
+        android:onClick="onClick"/>
+
 </LinearLayout>
